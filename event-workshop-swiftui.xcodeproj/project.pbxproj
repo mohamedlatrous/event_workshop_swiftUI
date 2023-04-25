@@ -24,6 +24,8 @@
 		9844DE8E29F7DE7D002B2E3F /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9844DE8D29F7DE7D002B2E3F /* EventDetailView.swift */; };
 		9844DE9129F7E5BC002B2E3F /* EventItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9844DE9029F7E5BC002B2E3F /* EventItemView.swift */; };
 		9844DE9329F7EBAC002B2E3F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9844DE9229F7EBAC002B2E3F /* Event.swift */; };
+		9844DE9529F81160002B2E3F /* EventVitemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9844DE9429F81160002B2E3F /* EventVitemView.swift */; };
+		9844DE9729F8275F002B2E3F /* Performer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9844DE9629F8275F002B2E3F /* Performer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		9844DE8D29F7DE7D002B2E3F /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
 		9844DE9029F7E5BC002B2E3F /* EventItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItemView.swift; sourceTree = "<group>"; };
 		9844DE9229F7EBAC002B2E3F /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9844DE9429F81160002B2E3F /* EventVitemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVitemView.swift; sourceTree = "<group>"; };
+		9844DE9629F8275F002B2E3F /* Performer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				9844DE9229F7EBAC002B2E3F /* Event.swift */,
+				9844DE9629F8275F002B2E3F /* Performer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				9844DE9029F7E5BC002B2E3F /* EventItemView.swift */,
+				9844DE9429F81160002B2E3F /* EventVitemView.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -248,8 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9844DE8E29F7DE7D002B2E3F /* EventDetailView.swift in Sources */,
+				9844DE9529F81160002B2E3F /* EventVitemView.swift in Sources */,
 				9844DE6829F7CDAF002B2E3F /* Persistence.swift in Sources */,
 				9844DE7C29F7DA1B002B2E3F /* Styles.swift in Sources */,
+				9844DE9729F8275F002B2E3F /* Performer.swift in Sources */,
 				9844DE9129F7E5BC002B2E3F /* EventItemView.swift in Sources */,
 				9844DE9329F7EBAC002B2E3F /* Event.swift in Sources */,
 				9844DE7A29F7DA0F002B2E3F /* Consts.swift in Sources */,

@@ -6,7 +6,30 @@
 //
 
 import Foundation
+import SwiftUI
 
-class Fonts{
-    let airbnb_light = Fonts("AirbnbCereal_W_Bd.otf")
+
+class Styles
+{
+    
+    static let black:Color = Color(uiColor: UIColor(named: "Black")!)
+    
+    static let white:Color = Color(uiColor: UIColor(named: "White")!)
+    
+    static let blue:Color = Color(uiColor: UIColor(named: "bleu")!)
+
+    
+    
+}
+
+
+
+class Fonts
+{
+    
+    static let airbnbCereal_book = "AirbnbCerealWBk"
+    static let airbnbCereal_light = "AirbnbCerealWLt"
+    static let airbnbCereal_bold = "AirbnbCerealWBd"
+    static let airbnbCereal_medium = "AirbnbCerealWMd"
+    
 }
